@@ -105,9 +105,9 @@ Al final, la Facade no elimina el sistema complejo (el proyector, el amplificado
 
 La aplicación simula una misma acción (visualización de una película en un Home Cinema) en dos escenarios diferentes:
 
-1️⃣  **Utilizando el patrón Facade**: en este caso, la clase cliente `RemoteControl` dispone de una Facade `HomeCinemaFacade` que le permite interactuar con el sistema complejo de forma sencilla.
+  1️⃣  **Utilizando el patrón Facade**: en este caso, la clase cliente `RemoteControl` dispone de una Facade `HomeCinemaFacade` que le permite interactuar con el sistema complejo de forma sencilla.
 
-2️⃣  **Sin utilizar el patrón Facade**: en este caso, la clase cliente `RemoteControl` no dispone de una Facade, por lo que no se puede usar para interactuar con el sistema, y por tanto, la interacción con el sistema complejo se realiza de forma manual.
+  2️⃣  **Sin utilizar el patrón Facade**: en este caso, la clase cliente `RemoteControl` no dispone de una Facade, por lo que no se puede usar para interactuar con el sistema, y por tanto, la interacción con el sistema complejo se realiza de forma manual.
 
 La aplicación captura la salida de ambos procesos y la presenta en una interfaz web o directamente en la terminal.
 
