@@ -125,12 +125,12 @@ La aplicación captura la salida de ambos procesos y la presenta en una interfaz
 
   Ubicado en `src/Subsystems/`.
 
-- ➡️ Flujo de ejecución
+- ➡️ **Flujo de ejecución**
 
   Ubicado en la raíz del proyecto:
   - `main.php`: Orquestador principal que ejecuta ambos modos (con y sin fachada) y prepara los datos.
 
-- 🎞️ Visualización de resultados
+- 🎞️ **Visualización de resultados**
 
   Ubicado en la raíz del proyecto:
   - `index.php` y `styles.css`: Interfaz visual para comparar los resultados.
