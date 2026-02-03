@@ -114,20 +114,26 @@ La aplicación captura la salida de ambos procesos y la presenta en una interfaz
 ### 👉🏼 Identificación de los principales archivos del ejemplo
 
 - 📱 **Cliente (Tú y tu Mando a Distancia)**: Representado por la clase `RemoteControl`. Tú eres el actor que decide qué quiere hacer. No te importa cómo se comunican los cables entre sí, solo quieres interactuar con una interfaz sencilla: tu mando.
-Ubicado en `src/Client/RemoteControl.php`.
+
+  Ubicado en `src/Client/RemoteControl.php`.
   
 - 🎛️ **La Facade (El Home Cinema)**: Representada por la clase `HomeCinemaFacade`. Es el cerebro del mando. Cuando tú pulsas "Ver Película" en el mando, este le envía la orden a la Fachada. Ella es la que "sabe" que primero debe bajar la pantalla y luego encender el proyector, liberándote a ti de esa carga cognitiva.
-Ubicado en `src/Facade/HomeCinemaFacade.php`.
+
+  Ubicado en `src/Facade/HomeCinemaFacade.php`.
 
 - ⚙️ **El Sistema Complejo (Los Subsistemas)**: Son el amplificador, el reproductor de dvd, el proyector y la pantalla. Son componentes potentes pero difíciles de coordinar uno a uno. Siguen ahí y podrías manejarlos manualmente si quisieras (como un técnico profesional), pero gracias a la Fachada, ahora trabajan en armonía bajo una sola orden.
 
+  Ubicado en `src/Subsystems/`.
+
 - ➡️ Flujo de ejecución
-Ubicada en la raíz del proyecto:
-- `main.php`: Orquestador principal que ejecuta ambos modos (con y sin fachada) y prepara los datos.
+
+  Ubicado en la raíz del proyecto:
+  - `main.php`: Orquestador principal que ejecuta ambos modos (con y sin fachada) y prepara los datos.
 
 - 🎞️ Visualización de resultados
-Ubicada en la raíz del proyecto:
-- `index.php` y `styles.css`: Interfaz visual para comparar los resultados.
+
+  Ubicado en la raíz del proyecto:
+  - `index.php` y `styles.css`: Interfaz visual para comparar los resultados.
 
 <br>
 
